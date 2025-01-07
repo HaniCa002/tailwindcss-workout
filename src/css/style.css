@@ -800,3 +800,31 @@ video {
   --tw-text-opacity: 1;
   color: rgb(94 234 212 / var(--tw-text-opacity, 1));
 }
+
+@media (min-width: 320px) {
+  .\33xs\:mt-8 {
+    margin-top: 2rem;
+  }
+
+  .\33xs\:flex {
+    display: flex;
+  }
+
+  .\33xs\:flex-col {
+    flex-direction: column;
+  }
+
+  .\33xs\:flex-col-reverse {
+    flex-direction: column-reverse;
+  }
+
+  .\33xs\:justify-between {
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:flex-row {
+    flex-direction: row;
+  }
+}

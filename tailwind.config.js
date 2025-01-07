@@ -11,6 +11,9 @@ module.exports = {
           light1 : "#F6F4F0",
           bgcol : "#2E5077"
         }
+      },
+      screens : {
+        "3xs" : "320px"
       }
     },
   },
